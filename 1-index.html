@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+    <title>Tiger Fitness</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            background-image: url('img/gymm.jpg');
+            background-repeat: no-repeat;
+            color: white;
+            font-family: cursive;
+        }
+
+        .left {
+            position: absolute;
+            left: 20px;
+            top: 7px;
+            display: inline-block;
+            /*border: 1px solid red;*/
+
+        }
+
+        .mid {
+            font-family: 'Times New Roman', Times, serif;
+            display: block;
+            width: 40%;
+            margin: 4px auto;
+            /* border: 1px solid red;**/
+        }
+
+        .right {
+            font-family: 'Times New Roman', Times, serif;
+            position: absolute;
+            right: 15px;
+            top: 13px;
+            display: inline-block;
+            /* border: 1px solid red;*/
+
+        }
+
+        .navbar li {
+            display: inline-block;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 5px 5px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a:active {
+            color: aqua;
+            text-decoration: underline solid red;
+        }
+
+        .left img {
+            width: 75px;
+            height: 50px;
+            margin: auto;
+            display: block;
+        }
+
+        .left div {
+            text-align: center;
+            font-style: italic;
+            font: bold;
+            color: orangered;
+            font-size: 22px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .btn {
+            margin: 0px 6px;
+            color: white;
+            background: black;
+            padding: 4px 14px;
+            border-radius: 10px;
+            font-size: 15px;
+            cursor: pointer;
+            width: 100px;
+        }
+
+        .btn:hover {
+            background: rgb(114, 112, 112);
+        }
+
+        .container {
+            /*border: 2px solid white;*/
+            margin: 50px 6px;
+            padding: 25px 35px;
+            border-radius: 15px;
+            width: 500px;
+        }
+
+        .form-group input {
+            text-align: center;
+            display: block;
+            width: 250px;
+            margin: 6px auto;
+            padding: 3px 6px;
+            border-radius: 6px;
+        }
+
+        .container h3 {
+            text-align: center;
+        }
+
+        .container button {
+            display: block;
+            width: 35%;
+            margin: 15px auto;
+        }
+
+        .heading {
+            color: rgb(248, 245, 244);
+            /* border: 2px solid white;*/
+            position: absolute;
+            right: 20%;
+            top: 30%;
+            width: 400px;
+            height: 250px;
+            border-radius: 10px;
+        }
+
+        .heading h5 {
+
+            text-decoration: underline solid red;
+            color: orangered;
+            font-size: 20px;
+            margin: 6px auto;
+            padding: 20px 10px;
+
+        }
+
+        .heading h3 {
+            margin: 2px auto;
+            padding: 0px 20px;
+        }
+
+        .heading h6 {
+            margin: 2px auto;
+            padding: 6px 10px;
+            font-size: 13px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <header class="header">
+
+        <div class="left">
+            <img src="img/logo.jpg" alt="">
+            <div>Tiger Fitness</div>
+        </div>
+
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Claculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="right">
+            <button class="btn">Call Us</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+
+    <div class="container">
+
+        <h3>Join the Best Gym of Nagpur Now </h3>
+
+        <form action="noaction.php">
+
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder=" Enter your Contact Number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email ID">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Weight">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <button class="btn">Submit</button>
+
+        </form>
+
+    </div>
+
+    <div class="heading">
+        <h5>INSPIRATION</h5>
+        <div>
+            <h3>60 Worlout Puns That Never Skip Leg Day</h3>
+        </div>
+        <div>
+            <h6>By Rohit Jagdish Tighare,<strong>15 March 2023.</strong></h6>
+        </div>
+
+    </div>
+
+
+</body>
+
+</html>
